@@ -3,16 +3,21 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
-import { Roboto } from 'next/font/google'
- 
-const roboto = Roboto({
-  weight: '400',
+import { Lora, Inter } from 'next/font/google'
+
+const lora = Lora({
   subsets: ['latin'],
+  variable: '--font-lora',
+})
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
 })
 
 export const metadata: Metadata = {
-  title: "Flaction",
-  description: "A flash fiction reading experience",
+  title: "Flaction - Flash Fictions",
+  description: "A premium, immersive reading experience for philosophical and surreal flash fictions.",
 };
 
 export default function RootLayout({
@@ -23,9 +28,9 @@ export default function RootLayout({
   modal: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={`${lora.variable} ${inter.variable}`}>
       <body
-        className={`${roboto.className} antialiased bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100`}
+        className="antialiased bg-stone-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans"
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
