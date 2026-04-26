@@ -97,9 +97,8 @@ export default function ReaderModal() {
           <motion.header
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: isScrolled ? 0 : 20, opacity: 1 }}
-            className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 transition-all duration-300 ${
-              isScrolled ? "bg-stone-50/80 dark:bg-neutral-950/80 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-800" : ""
-            }`}
+            className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 transition-all duration-300 ${isScrolled ? "bg-stone-50/80 dark:bg-neutral-950/80 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-800" : ""
+              }`}
           >
             <button
               onClick={close}

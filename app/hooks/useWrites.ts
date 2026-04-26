@@ -1,49 +1,22 @@
 const writesData = [{
-    id: "strange-great-tree",
-    title: "The strange great tree",
+    id: "void-of-colours",
+    title: "The void of colours",
     content: `
-        There was a strange, tall tree. Whenever it rained, it stored the water and then released it slowly, drop by drop.
+        I sat on the grass, watching them enter the well of colours. The world outside was grey. Inside, they laughed, danced, and shared stories of their journeys.
 
-        My shelter stood beneath it. The drops fell onto my roof, seeped through, and made life difficult.
+        I saw a young man walk out. With each step away from the colours, his smile faded.
 
-        So I built a wooden channel to guide the water away. As the water flowed through it, I thought I could use that.
+        I never went in. I had no stories to share, no memories to celebrate. Or perhaps... I don't have them because I never entered.
 
-        So I planted flowers where the water fell.
+        Was I sad because I remained in the grey? Or because others seemed happy in the colours?
 
-        But the problem wasn’t solved. Water still dripped from other parts of the tree, still leaking through my roof.
+        A wise philosopher, Socmedis, once warned: "The colours are an illusion. The devil's lure."
 
-        So I built another channel. And planted more flowers.
+        Once, I stood close enough to hear them. Their experiences sounded real, exciting, and meaningful. That's when I felt it: the absence. If I had entered, maybe I would have lived those moments too.
 
-        Soon, birds came. Bees hummed around the flowers.
+        Like my friend, who never cared for the flute, but the day he entered the colours and met the flute players, it became his deepest longing.
 
-        I made a final channel, a big one this time. And directed it straight to the tree's roots. The roots grew weaker and weaker, eventually resulting in the fall of the great tall tree.
-
-        But now, no water reached the flowers either.
-
-        They dried... they died.
-
-        The birds stopped coming.
-
-        The bees were gone.
-
-    `
-}, {
-    id: "day-i-met-her",
-    title: "The Day I Met Her",
-    content: `
-        I tried many times to meet her, but whenever I came face-to-face with her, I was too scared to say anything. But I tried again and again.
-
-        One day, she came to me and looked into my eyes. I was terrified; shivers ran all over my body. She said to me, “Let’s go.” I couldn’t refuse, so I went with her.
-
-        Then I heard someone calling me, so I looked back.
-
-        I saw a baby far away. He crawled toward me, then began to run, stumbling as he moved. As he came closer, he was a grown boy running faster, a book in his right hand, a pen, and a guitar hanging on his back... no, it is a heavy bag. Then I saw a man in a blue shirt and black trousers, his shirt tucked in but slightly loose, with a bag slung over his left shoulder.
-
-        As he came even closer, I saw a middle-aged man who looked exactly like me. He stretched out his hand toward me… and I did the same. As our hands touched, he disappeared.
-
-        People were crying and sobbing; they were calling me back. But I couldn’t go.
-
-        I felt a pull and looked forward, I saw... nothing.  
+        So I keep asking myself: Should I go in? 
     `
 }, {
     id: "under-the-pile",
@@ -134,6 +107,133 @@ const writesData = [{
         On my deathbed, my sister sat beside me. I asked her, "Are those real?" She cried, tears running down her face. She replied, "But you were happy at least." 
     `
 }, {
+    id: "library-for-everyone",
+    title: "The Library for Everyone",
+    content: `
+        He walked to the grand library as he did every day. Inside, people read silently, with the same pace, the same posture, the same expression… all uniform, all inevitable. They greeted him with a smile and a nod.
+
+        His hat slipped from the table. “Excuse me,” he muttered to the woman next to him, bending to pick it up. His eyes caught her book. Written there, plain and unassuming, were the words:
+
+        “…will buy a red-dotted black dress, a Vict…”
+
+        He looked away, returning to his own reading.
+
+        Later, during a break, he stepped outside for a walk. The woman had gone, leaving only the echo of her presence. As he sipped coffee, he spotted her down the street, with a red-dotted black dress and Victorian hat.
+
+        Bored by the monotony of his thick, repetitive book, an idea struck him: What if I tear the pages?
+
+        He began, carefully at first, ripping one page after another. The subtle shuffle of paper drew glances. At first, disapproving. Then, sharper. By the time he had torn half the pages, the readers’ eyes were dark with anger.
+
+        Still tearing the pages, until only the last page remained: The End
+    `
+}, {
+    id: "strange-great-tree",
+    title: "The strange great tree",
+    content: `
+        There was a strange, tall tree. Whenever it rained, it stored the water and then released it slowly, drop by drop.
+
+        My shelter stood beneath it. The drops fell onto my roof, seeped through, and made life difficult.
+
+        So I built a wooden channel to guide the water away. As the water flowed through it, I thought I could use that.
+
+        So I planted flowers where the water fell.
+
+        But the problem wasn’t solved. Water still dripped from other parts of the tree, still leaking through my roof.
+
+        So I built another channel. And planted more flowers.
+
+        Soon, birds came. Bees hummed around the flowers.
+
+        I made a final channel, a big one this time. And directed it straight to the tree's roots. The roots grew weaker and weaker, eventually resulting in the fall of the great tall tree.
+
+        But now, no water reached the flowers either.
+
+        They dried... they died.
+
+        The birds stopped coming.
+
+        The bees were gone.
+
+    `
+}, {
+    id: "leave-from-office",
+    title: "Subject: Leave from Office",
+    content: `
+        To whom it may concern,
+
+        During the vacations, I went trekking. While packing my bags, I accidentally took my office ID with me.
+
+        I was exploring there when I dropped my ID somewhere along the way. A man found it and handed it back to me. He seemed like a local.
+
+        “Hey, you dropped this,” he said. I thanked him and took my ID.
+
+        He was a painter. He painted for the tourists. He asked if I would like one. I sat on a chair; behind me stretched a magnificent view, vast mountains capped with snow, brushed with a faint tint of green. A very vivid, colourful view. Though his paintings followed a particular scheme of mostly three colours: Green, yellow and red.
+
+        While he painted, we discussed the scenery, the tourists, and how much he loves painting tourists. At some point, I asked how much he earned doing what he does.
+
+        “Bare minimum to feed myself,” he replied. “But I’m happy, though. It gives me thrills,” he added with a smile.
+
+        “Do you love what you do?” he asked.
+
+        After a pause, I said, “Not quite,” with a smile, a forced one, perhaps.
+
+        “Then why do it?”
+
+        “To feed myself, I guess.”
+
+        “You can feed yourself doing what you love as well,” he said. “Like me.”
+
+        I was submerged in deep thinking after hearing those words.
+
+        “What do you love, by the way?” he interrupted my thoughts.
+
+        “Writing,” I said.
+
+        I don’t know what happened in that moment. It was… a life-changing moment. Sometimes, such moments seem ordinary to one person but completely transform another. For me, it did. I decided I would follow my passion.
+
+        “It’s done,” he declared. He had finished the painting. It was beautiful.
+
+        “It’s beautiful. I’ll keep this in my office when I become an established writer.”
+
+        “Thinking about following your passion, huh? Not bad.” He remarked with a smile.
+
+        “Thinking.”
+
+        “My friend there sells notebooks and pens, maybe you’ll need one,” he said.
+
+        I left my ID there and went with him to buy a notebook and a pen.
+
+        Maybe I will see my office and colleagues again after a long time, if I can.
+
+        I am writing this in the notebook I bought, with the painting beside me. It’s dark here; I can barely write. I think it’s a basement. I don’t know where I am. My head hurts. There’s a little blood on my hand and shirt. I guess it was not painting that he loved. I don’t think this letter will ever find you.
+
+        I miss my office.
+
+        Thanking you,
+
+        Yours faithfully,
+
+        — 
+    `
+}, {
+    id: "day-i-met-her",
+    title: "The Day I Met Her",
+    content: `
+        I tried many times to meet her, but whenever I came face-to-face with her, I was too scared to say anything. But I tried again and again.
+
+        One day, she came to me and looked into my eyes. I was terrified; shivers ran all over my body. She said to me, “Let’s go.” I couldn’t refuse, so I went with her.
+
+        Then I heard someone calling me, so I looked back.
+
+        I saw a baby far away. He crawled toward me, then began to run, stumbling as he moved. As he came closer, he was a grown boy running faster, a book in his right hand, a pen, and a guitar hanging on his back... no, it is a heavy bag. Then I saw a man in a blue shirt and black trousers, his shirt tucked in but slightly loose, with a bag slung over his left shoulder.
+
+        As he came even closer, I saw a middle-aged man who looked exactly like me. He stretched out his hand toward me… and I did the same. As our hands touched, he disappeared.
+
+        People were crying and sobbing; they were calling me back. But I couldn’t go.
+
+        I felt a pull and looked forward, I saw... nothing.  
+    `
+}, {
     id: "hurting-nail",
     title: "The Hurting Nail",
     content: `
@@ -172,46 +272,6 @@ const writesData = [{
         I... I don't know, maybe the nail. It can hold you.
 
         Yes... the nail. 
-    `
-}, {
-    id: "void-of-colours",
-    title: "The void of colours",
-    content: `
-        I sat on the grass, watching them enter the well of colours. The world outside was grey. Inside, they laughed, danced, and shared stories of their journeys.
-
-        I saw a young man walk out. With each step away from the colours, his smile faded.
-
-        I never went in. I had no stories to share, no memories to celebrate. Or perhaps... I don't have them because I never entered.
-
-        Was I sad because I remained in the grey? Or because others seemed happy in the colours?
-
-        A wise philosopher, Socmedis, once warned: "The colours are an illusion. The devil's lure."
-
-        Once, I stood close enough to hear them. Their experiences sounded real, exciting, and meaningful. That's when I felt it: the absence. If I had entered, maybe I would have lived those moments too.
-
-        Like my friend, who never cared for the flute, but the day he entered the colours and met the flute players, it became his deepest longing.
-
-        So I keep asking myself: Should I go in? 
-    `
-}, {
-    id: "library-for-everyone",
-    title: "The Library for Everyone",
-    content: `
-        He walked to the grand library as he did every day. Inside, people read silently, with the same pace, the same posture, the same expression… all uniform, all inevitable. They greeted him with a smile and a nod.
-
-        His hat slipped from the table. “Excuse me,” he muttered to the woman next to him, bending to pick it up. His eyes caught her book. Written there, plain and unassuming, were the words:
-
-        “…will buy a red-dotted black dress, a Vict…”
-
-        He looked away, returning to his own reading.
-
-        Later, during a break, he stepped outside for a walk. The woman had gone, leaving only the echo of her presence. As he sipped coffee, he spotted her down the street, with a red-dotted black dress and Victorian hat.
-
-        Bored by the monotony of his thick, repetitive book, an idea struck him: What if I tear the pages?
-
-        He began, carefully at first, ripping one page after another. The subtle shuffle of paper drew glances. At first, disapproving. Then, sharper. By the time he had torn half the pages, the readers’ eyes were dark with anger.
-
-        Still tearing the pages, until only the last page remained: The End
     `
 }, {
     id: "spike-above-head",
@@ -429,67 +489,7 @@ const writesData = [{
         It was reincarnated as a human.
 
     `
-}, {
-    id: "leave-from-office",
-    title: "Subject: Leave from Office",
-    content: `
-        To whom it may concern,
-
-        During the vacations, I went trekking. While packing my bags, I accidentally took my office ID with me.
-
-        I was exploring there when I dropped my ID somewhere along the way. A man found it and handed it back to me. He seemed like a local.
-
-        “Hey, you dropped this,” he said. I thanked him and took my ID.
-
-        He was a painter. He painted for the tourists. He asked if I would like one. I sat on a chair; behind me stretched a magnificent view, vast mountains capped with snow, brushed with a faint tint of green. A very vivid, colourful view. Though his paintings followed a particular scheme of mostly three colours: Green, yellow and red.
-
-        While he painted, we discussed the scenery, the tourists, and how much he loves painting tourists. At some point, I asked how much he earned doing what he does.
-
-        “Bare minimum to feed myself,” he replied. “But I’m happy, though. It gives me thrills,” he added with a smile.
-
-        “Do you love what you do?” he asked.
-
-        After a pause, I said, “Not quite,” with a smile, a forced one, perhaps.
-
-        “Then why do it?”
-
-        “To feed myself, I guess.”
-
-        “You can feed yourself doing what you love as well,” he said. “Like me.”
-
-        I was submerged in deep thinking after hearing those words.
-
-        “What do you love, by the way?” he interrupted my thoughts.
-
-        “Writing,” I said.
-
-        I don’t know what happened in that moment. It was… a life-changing moment. Sometimes, such moments seem ordinary to one person but completely transform another. For me, it did. I decided I would follow my passion.
-
-        “It’s done,” he declared. He had finished the painting. It was beautiful.
-
-        “It’s beautiful. I’ll keep this in my office when I become an established writer.”
-
-        “Thinking about following your passion, huh? Not bad.” He remarked with a smile.
-
-        “Thinking.”
-
-        “My friend there sells notebooks and pens, maybe you’ll need one,” he said.
-
-        I left my ID there and went with him to buy a notebook and a pen.
-
-        Maybe I will see my office and colleagues again after a long time, if I can.
-
-        I am writing this in the notebook I bought, with the painting beside me. It’s dark here; I can barely write. I think it’s a basement. I don’t know where I am. My head hurts. There’s a little blood on my hand and shirt. I guess it was not painting that he loved. I don’t think this letter will ever find you.
-
-        I miss my office.
-
-        Thanking you,
-
-        Yours faithfully,
-
-        — 
-    `
-}];
+},];
 
 export function useWrites() {
     return writesData;
