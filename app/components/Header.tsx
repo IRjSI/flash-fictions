@@ -28,33 +28,14 @@ function Header() {
             <span className="tracking-tight text-2xl font-serif font-semibold select-none leading-none">
               Flaction
             </span>
-            <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-500 dark:text-neutral-400 font-sans mt-1">
-              Flash Fictions
-            </span>
           </div>
         </Link>
 
 
         <div className="flex items-center gap-3">
-          <button
-            onClick={toggleTheme}
-            className="p-2.5 rounded-2xl border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-all duration-300"
-            aria-label="Toggle theme"
-          >
-            {!mounted ? (
-              <div className="w-5 h-5" />
-            ) : resolvedTheme === "dark" ? (
-              <Sun className="w-5 h-5 text-orange-300" />
-            ) : (
-              <Moon className="w-5 h-5 text-neutral-600" />
-            )}
-          </button>
-          <button
-            className="p-2.5 rounded-2xl border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-all duration-300"
-            aria-label="Collection"
-          >
-            <BookText className="w-5 h-5 text-neutral-600 dark:text-neutral-400" />
-          </button>
+          <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-500 dark:text-neutral-400 font-sans mt-1">
+            Flash Fictions
+          </span>
         </div>
       </div>
     </header>

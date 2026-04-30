@@ -29,14 +29,9 @@ function HomePage() {
       </section>
 
       <footer className="mt-16 py-12 border-t border-neutral-200 dark:border-neutral-800 flex flex-col sm:flex-row justify-between items-center gap-6 text-sm text-neutral-500 dark:text-neutral-400">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center justify-center w-full gap-2">
           <span className="w-2 h-2 rounded-full bg-neutral-900 dark:bg-neutral-100"></span>
           © {new Date().getFullYear()} Flaction
-        </div>
-        <div className="flex gap-8 font-sans">
-          <a href="#" className="hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors">Archive</a>
-          <a href="#" className="hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors">About</a>
-          <a href="#" className="hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors">RSS</a>
         </div>
       </footer>
     </div>
